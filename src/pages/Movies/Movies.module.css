@@ -1,0 +1,25 @@
+.MoviesList{
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .Item{
+    padding-bottom: 7px;
+  }
+
+  .Link{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .Link:hover{
+    color: rgb(65, 10, 116);
+    font-weight: 700;
+  }
+
+  .Note{
+    color: orangered;
+    font-size: 18px;
+    text-align: center;
+  }

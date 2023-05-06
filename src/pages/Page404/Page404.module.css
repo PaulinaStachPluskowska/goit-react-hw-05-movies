@@ -1,0 +1,14 @@
+.Container {
+    width: 100%;
+  }
+  
+.Info {
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

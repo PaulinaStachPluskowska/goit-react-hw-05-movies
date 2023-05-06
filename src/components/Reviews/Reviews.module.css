@@ -1,0 +1,13 @@
+.ReviewsList{
+    list-style: none;
+}
+
+.Author{
+    color: rgb(65, 10, 116); 
+}
+
+.Note{
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+}

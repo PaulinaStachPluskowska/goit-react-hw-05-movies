@@ -1,0 +1,84 @@
+.Container {
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  .Link {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(79, 26, 177);
+    font-weight: 500;
+  }
+
+  .Link:hover {
+    color: rgb(65, 10, 116);
+    font-weight: 700;
+  }
+  
+  .DetailContainer {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    -webkit-box-shadow: 0px 20px 12px -16px rgba(199, 199, 199, 1);
+    -moz-box-shadow: 0px 20px 12px -16px rgba(199, 199, 199, 1);
+    box-shadow: 0px 20px 12px -16px rgba(199, 199, 199, 1);
+  }
+  
+  .Info {
+    margin-left: 20px;
+  }
+  
+  .Poster {
+    display: block;
+    padding: 20px;
+    margin-top: 10px;
+    /* height:auto;
+    max-width: 200px; */
+  }
+
+  .Title{
+    color: rgb(65, 10, 116);
+  }
+
+  .Overview{
+    color: rgb(65, 10, 116);
+  }
+
+  .Genres{
+    display: inline;
+    justify-content: space-around;
+    color: rgb(65, 10, 116);
+  }
+
+  .AdditionalInfoContainer {
+    padding: 20px 0;
+    -webkit-box-shadow: 0px 13px 7px -5px rgba(199, 199, 199, 1);
+    -moz-box-shadow: 0px 13px 7px -5px rgba(199, 199, 199, 1);
+    box-shadow: 0px 13px 7px -5px rgba(199, 199, 199, 1);
+  }
+
+  .AdditionalHeader{
+    padding: 0 20px;
+    color: rgb(65, 10, 116);
+  }
+
+  
+  .LinkName {
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(79, 26, 177);
+  }  
+
+  .LinkName:hover{
+    color: rgb(65, 10, 116);
+    font-weight: 700;
+  }
+  .List{
+    list-style: none;
+  }
+
+  .Item{
+    padding-bottom: 15px;
+  }

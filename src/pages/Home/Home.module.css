@@ -1,0 +1,30 @@
+.Container {
+    margin-left: 10px;
+  }
+  
+  .Title {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: rgb(79, 26, 177);
+  }
+  
+  .MovieList{
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .Item{
+    padding-bottom: 7px;
+  }
+
+  .Link{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .Link:hover{
+    color: rgb(65, 10, 116);
+    font-weight: 700;
+  }

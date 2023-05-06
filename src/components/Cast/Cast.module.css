@@ -1,0 +1,21 @@
+.ActorsList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.Actor{
+    flex-basis: calc((100% - 20px)/3);
+}
+
+.ActorName{
+    color: rgb(65, 10, 116);
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.ActorPhoto{
+    width: 270px;
+    height: 360px;
+}

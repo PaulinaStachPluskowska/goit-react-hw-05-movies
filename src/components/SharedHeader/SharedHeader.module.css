@@ -1,0 +1,26 @@
+.Header{
+    padding: 18px 20px;
+    -webkit-box-shadow: 0px 6px 11px 3px rgba(199, 199, 199, 1);
+    -moz-box-shadow: 0px 6px 11px 3px rgba(199, 199, 199, 1);
+    box-shadow: 0px 6px 11px 3px rgba(199, 199, 199, 1);
+}
+
+.Navigation{
+    text-align: left;
+    background-color: #c0b3f0;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+.Link{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px;
+    color: #1b0665;
+}
+
+.Link:hover{
+    text-decoration: underline;
+    color: rgb(65, 10, 116);
+}
