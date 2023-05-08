@@ -25,7 +25,8 @@ const Cast = () => {
 
     useEffect(() => {
         getCast();
-    });
+        // eslint-disable-next-line
+    }, []);
 
     
     return (
