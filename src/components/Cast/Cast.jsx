@@ -35,7 +35,7 @@ const Cast = () => {
                 {cast.map( actor => (
                     <li className={css.Actor} key={actor.id}>
                         <img className={css.ActorPhoto} src={actor.profile_path ? `${IMAGE_BASE_URL}/${actor.profile_path}`
-                         : 'http://tinleychamber.org/wp-content/uploads/2019/01/no-image-available.png' }
+                         : 'https://www.freeiconspng.com/uploads/no-image-icon-33.png' }
                          alt='actor'
                          />
                          <p className={css.ActorName}>{actor.name}</p>
