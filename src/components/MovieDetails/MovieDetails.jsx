@@ -33,7 +33,8 @@ const MovieDetails = () => {
 
     useEffect(() => {
         getDetails();
-    });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []); 
 
     const location = useLocation();
     const backHref = location.state?.from ?? '/movies';
